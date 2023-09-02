@@ -55,6 +55,7 @@ class HomePage extends StatelessWidget {
                         padding: const EdgeInsets.all(8),
                         children: <Widget>[
                           Container(
+                            decoration: BoxDecoration(color: Colors.black),
                             color: Colors.grey,
                             child: const Center(child: Text('Entry A')),
                           ),

@@ -13,8 +13,11 @@ class _cartState extends State<cart> {
     return Column(
       children: [
         Row(
-          children: [],
-        )
+          children: [
+            IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+            Text('Add Cart')
+          ],
+        ),
       ],
     );
   }

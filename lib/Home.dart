@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                     onPressed: (() {}),
                     icon: Icon(
                       Icons.search,
-                      color: Colors.black,
+                      color: Colors.white,
                     ))
               ],
               shadowColor: Colors.transparent,

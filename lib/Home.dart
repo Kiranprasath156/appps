@@ -103,6 +103,15 @@ class HomePage extends StatelessWidget {
                           SizedBox(
                             height: 20,
                           ),
+                          Container(
+                            decoration: BoxDecoration(
+                                border: Border.all(color: Colors.black)),
+                            height: 100,
+                            child: const Center(child: Text('Entry F')),
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
                         ],
                       ),
                     )

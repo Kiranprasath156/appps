@@ -1,26 +1,16 @@
+import 'package:appps/projrct_overview_screen.dart';
 import 'package:flutter/material.dart';
 
-// ignore: camel_case_types
-class cart extends StatefulWidget {
-  const cart({super.key});
+void main() => runApp(Apps());
 
-  @override
-  State<cart> createState() => _cartState();
-}
+class Apps extends StatelessWidget {
+  const Apps({super.key});
 
-// ignore: camel_case_types
-class _cartState extends State<cart> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
-          children: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.arrow_back)),
-            const Text('Add Cart')
-          ],
-        ),
-      ],
+    return MaterialApp(
+      title: 'My Shop',
+      home: product_overview(),
     );
   }
 }
